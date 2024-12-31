@@ -1,0 +1,17 @@
+/home/zlove/ws_sub_pub/install/sub_pub/lib/sub_pub/publisher_node
+/home/zlove/ws_sub_pub/install/sub_pub/lib/sub_pub/subscriber_node
+/home/zlove/ws_sub_pub/install/sub_pub/share/ament_index/resource_index/package_run_dependencies/sub_pub
+/home/zlove/ws_sub_pub/install/sub_pub/share/ament_index/resource_index/parent_prefix_path/sub_pub
+/home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/environment/ament_prefix_path.sh
+/home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/environment/ament_prefix_path.dsv
+/home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/environment/path.sh
+/home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/environment/path.dsv
+/home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/local_setup.bash
+/home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/local_setup.sh
+/home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/local_setup.zsh
+/home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/local_setup.dsv
+/home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/package.dsv
+/home/zlove/ws_sub_pub/install/sub_pub/share/ament_index/resource_index/packages/sub_pub
+/home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/cmake/sub_pubConfig.cmake
+/home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/cmake/sub_pubConfig-version.cmake
+/home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/package.xml

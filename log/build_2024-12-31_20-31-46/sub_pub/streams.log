@@ -1,0 +1,68 @@
+[0.011s] Invoking command in '/home/zlove/ws_sub_pub/build/sub_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zlove/ws_sub_pub/src/sub_pub -DCMAKE_INSTALL_PREFIX=/home/zlove/ws_sub_pub/install/sub_pub
+[0.184s] -- The C compiler identification is GNU 13.3.0
+[0.251s] -- The CXX compiler identification is GNU 13.3.0
+[0.262s] -- Detecting C compiler ABI info
+[0.325s] -- Detecting C compiler ABI info - done
+[0.331s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.331s] -- Detecting C compile features
+[0.332s] -- Detecting C compile features - done
+[0.337s] -- Detecting CXX compiler ABI info
+[0.394s] -- Detecting CXX compiler ABI info - done
+[0.400s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.401s] -- Detecting CXX compile features
+[0.401s] -- Detecting CXX compile features - done
+[0.410s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.492s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.551s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.576s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.583s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.591s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.601s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.646s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.648s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.685s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.698s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.719s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.759s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.768s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.828s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.828s] -- Configured cppcheck include dirs: 
+[0.828s] -- Configured cppcheck exclude dirs and/or files: 
+[0.829s] -- Added test 'lint_cmake' to check CMake code style
+[0.829s] -- Added test 'uncrustify' to check C / C++ code style
+[0.829s] -- Configured uncrustify additional arguments: 
+[0.829s] -- Added test 'xmllint' to check XML markup files
+[0.830s] -- Configuring done (0.8s)
+[0.840s] -- Generating done (0.0s)
+[0.844s] -- Build files have been written to: /home/zlove/ws_sub_pub/build/sub_pub
+[0.850s] Invoked command in '/home/zlove/ws_sub_pub/build/sub_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zlove/ws_sub_pub/src/sub_pub -DCMAKE_INSTALL_PREFIX=/home/zlove/ws_sub_pub/install/sub_pub
+[0.850s] Invoking command in '/home/zlove/ws_sub_pub/build/sub_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zlove/ws_sub_pub/build/sub_pub -- -j4 -l4
+[0.874s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o[0m
+[0.874s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber.cpp.o[0m
+[3.726s] [ 75%] [32m[1mLinking CXX executable publisher_node[0m
+[3.853s] [ 75%] Built target publisher_node
+[5.019s] [100%] [32m[1mLinking CXX executable subscriber_node[0m
+[5.172s] [100%] Built target subscriber_node
+[5.183s] Invoked command in '/home/zlove/ws_sub_pub/build/sub_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zlove/ws_sub_pub/build/sub_pub -- -j4 -l4
+[5.197s] Invoking command in '/home/zlove/ws_sub_pub/build/sub_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zlove/ws_sub_pub/build/sub_pub
+[5.204s] -- Install configuration: ""
+[5.205s] -- Installing: /home/zlove/ws_sub_pub/install/sub_pub/lib/sub_pub/publisher_node
+[5.206s] -- Set non-toolchain portion of runtime path of "/home/zlove/ws_sub_pub/install/sub_pub/lib/sub_pub/publisher_node" to ""
+[5.206s] -- Installing: /home/zlove/ws_sub_pub/install/sub_pub/lib/sub_pub/subscriber_node
+[5.210s] -- Set non-toolchain portion of runtime path of "/home/zlove/ws_sub_pub/install/sub_pub/lib/sub_pub/subscriber_node" to ""
+[5.211s] -- Installing: /home/zlove/ws_sub_pub/install/sub_pub/share/ament_index/resource_index/package_run_dependencies/sub_pub
+[5.211s] -- Installing: /home/zlove/ws_sub_pub/install/sub_pub/share/ament_index/resource_index/parent_prefix_path/sub_pub
+[5.211s] -- Installing: /home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/environment/ament_prefix_path.sh
+[5.212s] -- Installing: /home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/environment/ament_prefix_path.dsv
+[5.212s] -- Installing: /home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/environment/path.sh
+[5.212s] -- Installing: /home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/environment/path.dsv
+[5.212s] -- Installing: /home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/local_setup.bash
+[5.212s] -- Installing: /home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/local_setup.sh
+[5.212s] -- Installing: /home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/local_setup.zsh
+[5.212s] -- Installing: /home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/local_setup.dsv
+[5.213s] -- Installing: /home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/package.dsv
+[5.213s] -- Installing: /home/zlove/ws_sub_pub/install/sub_pub/share/ament_index/resource_index/packages/sub_pub
+[5.213s] -- Installing: /home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/cmake/sub_pubConfig.cmake
+[5.213s] -- Installing: /home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/cmake/sub_pubConfig-version.cmake
+[5.213s] -- Installing: /home/zlove/ws_sub_pub/install/sub_pub/share/sub_pub/package.xml
+[5.217s] Invoked command in '/home/zlove/ws_sub_pub/build/sub_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zlove/ws_sub_pub/build/sub_pub
